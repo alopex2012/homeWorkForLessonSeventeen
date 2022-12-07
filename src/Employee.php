@@ -10,11 +10,13 @@ namespace App;
 class Employee extends User
 {
     /**
+     * $salary property value
      * @var int
      */
     private int $salary;
 
     /**
+     * Getter for $salary
      * @return int
      */
     public function getSalary(): int
@@ -23,6 +25,7 @@ class Employee extends User
     }
 
     /**
+     * Setter for $salary
      * @param int $salary
      */
     public function setSalary(int $salary)
@@ -31,6 +34,7 @@ class Employee extends User
     }
 
     /**
+     * Implementing an abstract method to increase $salary by $value
      * @param int $value
      */
     public function increaseRevenue(int $value)
@@ -39,6 +43,7 @@ class Employee extends User
     }
 
     /**
+     * Implementing an abstract method to decrease $salary by $value
      * @param int $value
      */
     public function decreaseRevenue(int $value)

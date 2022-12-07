@@ -10,11 +10,13 @@ namespace App;
 class Rectangle extends Figure
 {
     /**
+     * $a property value
      * @var int
      */
     private int $a;
 
     /**
+     * $b property value
      * @var int
      */
     private int $b;
@@ -31,6 +33,7 @@ class Rectangle extends Figure
     }
 
     /**
+     * Implementation of the abstract method for the area of the rectangle
      * @return int
      */
     public function getSquare(): int
@@ -39,6 +42,7 @@ class Rectangle extends Figure
     }
 
     /**
+     * Implementation of the abstract method for the perimeter of the rectangle
      * @return int
      */
     public function getPerimeter(): int

@@ -90,6 +90,7 @@ echo "<pre>",
 $rectangle = new Rectangle(50, 30);
 echo "Perimeter of the rectangle = " . $rectangle->getPerimeter() . "<br />";
 echo "Square of the rectangle = " . $rectangle->getSquare() . "<br />";
+//use the getRatio() method to get the ratio of the area and perimeter of the rectangle
 echo "Ratio of the area of the rectangle to the perimeter of the rectangle = " . $rectangle->getRatio() . "<br />";
 
 echo "<hr />";
