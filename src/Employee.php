@@ -38,4 +38,11 @@ class Employee extends User
         $this->salary = $this->salary + $value;
     }
 
+    /**
+     * @param int $value
+     */
+    public function decreaseRevenue(int $value)
+    {
+        $this->salary = $this->salary - $value;
+    }
 }

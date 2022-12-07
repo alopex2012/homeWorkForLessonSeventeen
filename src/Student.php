@@ -38,4 +38,11 @@ class Student extends User
         $this->scholarship = $this->scholarship + $value;
     }
 
+    /**
+     * @param int $value
+     */
+    public function decreaseRevenue(int $value)
+    {
+        $this->scholarship = $this->scholarship - $value;
+    }
 }

@@ -36,4 +36,9 @@ abstract class User
      */
     abstract public function increaseRevenue(int $value);
 
+    /**
+     * @param int $value
+     * @return void
+     */
+    abstract public function decreaseRevenue(int $value);
 }
